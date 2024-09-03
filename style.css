@@ -1,0 +1,148 @@
+body{
+    background-color: #9C4041;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;;
+}
+.page1{
+    width: 1519px;
+    position: relative;
+}
+.page1 img{
+    width: 100%;
+}
+.navbar{
+    
+    position: fixed;
+    top: 0;
+    width: 1519px;
+    background-color: rgba(30, 29, 29, 0.616);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px solid #5b5d5d5e;
+}
+.imglogo{
+    width: 150px;
+    background: transparent;
+}
+.imglogo img{
+    width: 85%;
+    height: 85px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.header-content{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.header-content ul{
+    position: absolute;
+    display: flex;
+    color: white;
+    padding: 20px;
+    list-style: none;
+    column-gap: 40px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.mnclogos{
+    display: flex;
+    column-gap: 15px;
+    margin-left: 240px;
+    margin-top: 34px;
+}
+.mnclogos img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+}
+.content-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.img-content{
+    margin: 71px 80px 80px 197px;
+}
+
+.us{
+    color: white;
+    font-size: 17px ;
+    margin-top: 193px;
+}
+.big-text{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: -10px;
+    color: white;
+}
+.small-text{
+    font-size: 17px ;
+    color: white;
+    line-height: 25px;
+    margin-top: -27px;
+}
+.text-content button{
+    background: transparent;
+    color: #bc9e33;
+    border-color: #bc9e33;
+    padding: 10px 30px;
+    margin-top: 5px;
+}
+.footer{
+    background-color: #1c1c1c;
+}
+.footer1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer-text{
+    margin: 55px 0px 48px 190px;
+    border-bottom: 1px solid white;
+}
+.footer-text h1{
+    color: #7c682a;
+    padding-left: 15px;
+}
+
+.footer-text p{
+    color: #d1bd74;
+    padding-left: 15px;
+    
+}
+.footer-button{
+    border-bottom: 1px solid white;
+    margin: 63px 170px 48px -1px;
+}
+.footer-button button{
+    background: transparent;
+    color: #bc9e33;
+    border-color: #bc9e33;
+    padding: 10px 30px;
+    margin: 55px 0px 100px 330px;
+}
+.footer2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.img
+{
+    width: 100px;
+    height: 100px;
+    padding: 75px 10px 10px 260px;
+}
+.address{
+    font-size: 15px;
+    line-height: 30px;
+    color: #d1bd74;
+    padding: 10px 10px 10px 80px;
+}
+.list{
+    list-style: none;
+    font-size: 15px;
+    line-height: 30px;
+    color: #d1bd74;
+    padding: 30px 10px 10px 60px;
+}
